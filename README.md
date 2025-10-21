@@ -56,38 +56,14 @@
 ## 🚀 Frameworks & Runtimes
 
 <div align="center">
-  <div style="display: inline-block; text-align: center; margin: 15px; width: 90px;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" style="height: 50px; margin-bottom: 5px;" alt="Spring Boot" />
-    <br/><strong>Spring Boot</strong>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 15px; width: 90px;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" style="height: 50px; margin-bottom: 5px;" alt=".NET Core" />
-    <br/><strong>.NET</strong>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 15px; width: 90px;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" style="height: 50px; margin-bottom: 5px;" alt="Django" />
-    <br/><strong>Django</strong>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 15px; width: 90px;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="height: 50px; margin-bottom: 5px;" alt="Node.js" />
-    <br/><strong>Node.js</strong>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 15px; width: 90px;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="height: 50px; margin-bottom: 5px;" alt="React" />
-    <br/><strong>React</strong>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 15px; width: 90px;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" style="height: 50px; margin-bottom: 5px;" alt="Tailwind CSS" />
-    <br/><strong>Tailwind CSS</strong>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 15px; width: 90px;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" style="height: 50px; margin-bottom: 5px;" alt="Electron" />
-    <br/><strong>Electron</strong>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 15px; width: 90px;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" style="height: 50px; margin-bottom: 5px;" alt="Bootstrap 5" />
-    <br/><strong>Bootstrap 5</strong>
-  </div>
 </div>
 
 ---
