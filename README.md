@@ -2,7 +2,7 @@
   <img src="https://avatars.githubusercontent.com/u/170670806?s=400&u=9a5bb3c7375319d09e702c4dab01d1588c0f5a3d&v=4" width="150" alt="Tu imagen de perfil de GitHub">
 </p>
 <h1 align="center">¡Hola, soy Lionel! 👋</h1>
-<h3 align="center">Estudiante de Desarrollo de Software | Software Development Student</h3>
+<h3 align="center">Tecnico de Desarrollo de Software | Software Development</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=lionelpastranamk500&label=Profile%20views&color=0e75b6&style=flat" alt="lionelpastranamk500" />
@@ -12,9 +12,9 @@
 
 ## 📚 Sobre mí | About Me
 
-- 🎓 Estudiante del **sexto ciclo** de la carrera técnica de **Desarrollo de Software** en SENATI (Perú).  
+- 🎓 Tecnico titulado de la carrera técnica de **Desarrollo de Software** en SENATI (Perú).  
 - 💡 Apasionado por aprender nuevas tecnologías, resolver problemas complejos y crear soluciones útiles.  
-- 🧰 Actualmente trabajando en un sistema de facturación electrónica e inventario para una empresa de lubricantes.  
+- 🧰 Actualmente trabajando en un sistema ofline para manejar tramites en diferentes sedes y que se pueda llevar la data de froma ofline con sincronizaciones para una empresa de vehiculos.  
 - 🌱 Aprendiendo activamente sobre **Java**, **C#**, **Node.js**, y **Python**.  
 - 💬 Me encanta ayudar a otros y compartir lo que aprendo.  
 - 📫 Puedes contactarme: [andriypastrana5@gmail.com](mailto:andriypastrana5@gmail.com)  
