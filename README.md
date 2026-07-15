@@ -107,26 +107,6 @@ API central del ERP Valeska que soporta concurrencia, sincronización por chunks
 - **Arquitectura Robusta:** Construida con NestJS y PostgreSQL mediante TypeORM, incluyendo métricas con Prometheus y OpenTelemetry.
 - 🛠️ **Stack Técnico:** ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 
-#### 🛢️ MotorDesk API
-
-> **Core empresarial para gestión de flotas y facturación electrónica (SUNAT).**
-
-Backend potente y seguro en Java y Spring Boot para el ecosistema ERP MotorDesk.
-
-- **Facturación Electrónica:** Integración con OpenUBL (XBuilder/XSender) para emisión de boletas, facturas y guías a SUNAT en tiempo real.
-- **Seguridad y Mensajería:** Autenticación estricta con JWT (Cookies HttpOnly) y comunicación asíncrona mediante RabbitMQ.
-- 🛠️ **Stack Técnico:** ![Java](https://img.shields.io/badge/Java_17-ED8B00?style=flat&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
-
-#### 🍗 Pikudo API
-
-> **Motor backend de e-commerce y pedidos en tiempo real.**
-
-Sistema centralizado para gestionar las operaciones y pedidos de la plataforma Pikudo Chicken.
-
-- **Comunicación en Tiempo Real:** Implementación nativa de WebSockets (Spring Boot) para actualización de comandas de forma instantánea.
-- **Integridad de Datos:** Uso de PostgreSQL con migraciones automatizadas mediante Flyway y acceso a datos a través de Spring Data JPA.
-- 🛠️ **Stack Técnico:** ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat&logo=socket.io&logoColor=white)
-
 #### ⏱️ Slotify Engine
 
 > **Microservicio transaccional atómico y anti-overbooking.**
@@ -178,9 +158,11 @@ Sistema robusto construido sobre el ecosistema de Laravel (PHP 8.2) orientado al
 - 🛠️ **Stack Técnico:** ![Laravel](https://img.shields.io/badge/Laravel_12-FF2D20?style=flat&logo=laravel&logoColor=white) ![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 #### 🏆 Torneos API
+
 > **API REST para la gestión de torneos y llaves de videojuegos.**
 
 Backend dedicado a la organización, registro de equipos y generación de llaves (brackets) competitivas para torneos de esports.
+
 - **Gestión Estructurada:** Proveé modelos relacionales para participantes, enfrentamientos y resultados.
 - **Arquitectura Ágil:** Implementado en Java 21 con Spring Boot y conectividad a base de datos relacional (MySQL).
 - 🛠️ **Stack Técnico:** ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
@@ -339,52 +321,48 @@ Interfaz de usuario pesada (Thick Client) desarrollada íntegramente en Python p
 - 📜 **Auditoría:** Sistema de logs centralizado y en tiempo real para el seguimiento de eventos críticos del juego.
 - 🛠️ **Stack Técnico:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat&logo=qt&logoColor=white)
 
-
 ### 🛠️ Scripts, Metodología & Bots
 
 #### 📖 Metodología Fasética (MEFH)
+
 > **Modelo arquitectónico propio para la construcción de software.**
 
 Especificación técnica de la Metodología Fasética de Ejecución Horizontal (MEFH) versión 3.0, creada para asegurar consistencia, escalabilidad y separación estricta de responsabilidades.
+
 - **Fases Inmutables:** Define ciclos estrictos (Backend/Frontend) separados por contratos explícitos como frontera absoluta.
 - **Evolución Estructural:** Reglas formales para micro-ciclos y gatekeeping, previniendo anti-patrones y priorizando la certeza técnica sobre la velocidad.
 - 🛠️ **Enfoque:** Arquitectura de Software, Estandarización, Ingeniería de Requisitos.
 
 #### 🎬 Pelicine Scraper
+
 > **Motor de extracción asíncrona de catálogos multimedia.**
 
 Script avanzado de Python para la recolección de miles de registros de películas y series desde sitios web.
+
 - **Automatización Stealth:** Utiliza Playwright asíncrono con inyección manual para evadir detección de webdrivers.
 - **Optimización de Tráfico:** Intercepta y bloquea activamente peticiones de publicidad (ad-domains) y trackers para una ejecución ultrarrápida.
 - 🛠️ **Stack Técnico:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
 
 #### 🖼️ Waifu Scraper (FB)
+
 > **Automatización de descargas masivas en redes sociales.**
 
 Herramienta diseñada para extraer imágenes desde publicaciones, perfiles o grupos privados de Facebook con una mínima interacción manual.
+
 - **Navegación Dinámica:** Emplea Selenium WebDriver para simular interacciones reales y realizar scrolling infinito de forma automatizada.
 - **Extracción Eficiente:** Descarga y organiza recursos de manera estructurada con solo proveer un enlace de inicio.
 - 🛠️ **Stack Técnico:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
-
-
 
 ---
 
 ## 📈 Estadísticas de Contribución | GitHub Stats
 
 <div align="center">
-  <!-- Trofeos de GitHub -->
-  <img src="https://github-profile-trophy.vercel.app/?username=lionelpastranamk500&theme=dracula&no-frame=true&no-bg=true&margin-w=15" width="100%" />
+  <!-- Racha de Contribuciones -->
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=lionelpastranamk500&theme=dracula&border_color=0e75b6&background=00000000" width="80%" />
   <br/><br/>
-  
-  <!-- Stats Generales y Racha -->
-  <img src="https://github-readme-stats.vercel.app/api?username=lionelpastranamk500&show_icons=true&theme=dracula&count_private=true&border_color=0e75b6&bg_color=00000000" width="48%" />
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=lionelpastranamk500&theme=dracula&border_color=0e75b6&background=00000000" width="48%" />
-  <br/><br/>
-
-  <!-- Lenguajes Top y Gráfico de Actividad -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lionelpastranamk500&layout=compact&theme=dracula&border_color=0e75b6&bg_color=00000000" width="48%" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lionelpastranamk500&theme=dracula&bg_color=00000000&color=0e75b6&line=0e75b6&point=ffffff&hide_border=true&height=300" width="48%" />
+  <!-- Gráfico de Actividad -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lionelpastranamk500&theme=dracula&bg_color=00000000&color=0e75b6&line=0e75b6&point=ffffff&hide_border=true&height=300" width="100%" />
 </div>
 
 <div align="center">
