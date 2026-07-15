@@ -32,7 +32,7 @@
 ### Lenguajes y Bases de Datos
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,cs,py,js,ts,php,html,css,mysql,mssql,postgres,mongodb,redis,dart,kotlin,sqlite,rust&perline=15" />
+  <img src="https://skillicons.dev/icons?i=java,cs,py,js,ts,php,html,css,mysql,postgres,mongodb,redis,dart,kotlin,sqlite,rust&perline=15" />
 </p>
 
 ### Frameworks y Librerías
